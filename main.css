@@ -261,6 +261,10 @@ p {
 .about-section{
   background:var(--black-color);
 }
+.about-section .table, th, td {
+  border:1px solid white;
+  color: white;
+}
 .about-section .card,
 .about-section .card img{
   border-radius: 0.625rem;
